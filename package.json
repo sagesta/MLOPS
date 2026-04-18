@@ -1,0 +1,15 @@
+{
+  "name": "mlops",
+  "private": true,
+  "scripts": {
+    "build": "cd business_analyst/saas && npm run build",
+    "dev": "cd business_analyst/saas && npm run dev",
+    "start": "cd business_analyst/saas && npm start",
+    "lint": "cd business_analyst/saas && npm run lint"
+  },
+  "dependencies": {
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  }
+}
